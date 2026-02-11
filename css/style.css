@@ -118,7 +118,7 @@ ol {
 .titulo {
 	background-color: rgb(217, 66, 159);
 	padding: 1rem;
-	width: 40%;
+	width: 60%;
 	margin-bottom: 1rem;
 	border-radius: 50px;
 }
@@ -217,7 +217,7 @@ ol {
 
 	.index_table {
 		padding: 1rem;
-		width: 80%;
+		width: 70%;
 	}
 }
 
@@ -270,7 +270,7 @@ ol {
 
 	.titulo {
 		padding: 0.7rem;
-		width: 50%;
+		width: 60%;
 		font-size: 1rem;
 	}
 
@@ -335,7 +335,7 @@ ol {
 
 	.titulo {
 		padding: 0.7rem;
-		width: 70%;
+		width: 60%;
 	}
 
 	.titulo h1 {
