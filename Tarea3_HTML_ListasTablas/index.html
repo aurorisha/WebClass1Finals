@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        			img {
+				margin-top: 60px;
+			}
+			#menu-nav {
+				width: 100%;
+				position: fixed;
+				top: 0px;
+				background-color: rgb(217, 66, 159);
+				z-index: 1;
+				height: 40px;
+				display: flex;
+				margin: auto;
+			}
+
+			.col-centro {
+				width: 80%;
+				margin: 0 auto;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.nombre-pagina {
+				width: 80%;
+				font-size: 1.5rem;
+				font-weight: bold;
+				font-style: italic;
+				text-align: center;
+			}
+
+			.nombre-pagina a {
+				font-size: 1em;
+				text-decoration: none;
+				color: rgb(255, 225, 230);
+			}
+
+			.back-legend {
+				font-size: 0.7em;
+				color: rgb(255, 225, 230);
+			}</style>
+</head>
+<body>
+    		<div id="menu-nav">
+			<div class="col-centro">
+				<div class="nombre-pagina">
+					<a href="https://aurorisha.github.io/WebClass1Finals">↩ Regresar</a>
+				</div>
+				<div class="nombre-pagina">
+					<p class="back-legend">⚠︎ Esta franja <b>no</b> se incluye en el ejemplo ⚠︎</p>
+				</div>
+			</div>
+		</div>
+    <img src="img/frutahero.jpeg" alt="" width="auto">
+    <h1>Fruteria La Saborsa</h1>
+    <p>Venta de Frutas y Verduras a domicilio</p>
+    <!-- ul>li*3>b{Lunes}+{ abierto de }+b{07:00}+{ a }+b{18:00} -->
+    <h2>Horarios</h2>
+    <ul>
+        <li><b>Lunes y Martes</b> abierto de <b>07:00</b> a <b>19:00</b></li>
+        <li><b>Miercoles y Jueves</b> abierto de <b>07:00</b> a <b>18:00</b></li>
+        <li><b>Viernes</b> abierto de <b>07:00</b> a <b>13:00</b></li>
+    </ul>
+    <hr>
+    <h2>Promociones de la Semana</h2>
+
+    <!-- table[width="450px"]>tr>th{Dato$}*6^tr>td*6>i{Fruta}^tr>td*6>del{\$00.00}^tr>td*6>b>i{\$00.00} -->
+
+    <table>
+        <thead>
+            <tr>
+            <th></th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        </thead>
+        <tbody>
+                    <tr>
+            <td><i></i></td>
+            <td><i>Platano</i></td>
+            <td><i>Tomates</i></td>
+            <td><i>Manana</i></td>
+            <td><i>Naranja</i></td>
+            <td><i>Limon</i></td>
+            <tr>
+                <td>Antes</td>
+                <td><del>$27.35</del></td>
+                <td><del>$35.95</del></td>
+                <td><del>$32.50</del></td>
+                <td><del>$22.00</del></td>
+                <td><del>$40.50</del></td>
+                <tr>
+                    <td><b>Ahora</b></td>
+                    <td><b><i>$19.95</i></b></td>
+                    <td><b><i>$29.95</i></b></td>
+                    <td><b><i>$26.00</i></b></td>
+                    <td><b><i>$14.95</i></b></td>
+                    <td><b><i>$36.00</i></b></td>
+                </tr>
+            </tr>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <a href="#">Conoce más</a>
+    <br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hzALXZWR458?si=AGdnkAX2uGnMD5DV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1, h2 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        p, a { 
+            text-align: center;
+            font-size:25px;
+            margin: 0px 15px 0 15px;
+            text-decoration-line: none;
+        }
+
+        nav{
+            margin-top: 40px;
+        }
+        img   {
+            width: 100%;
+        }
+
+        table {
+            margin: auto;
+            border-color: chartreuse;
+            border: 2px solid green;
+            /*border-collapse: collapse;*/
+        }
+
+        th {
+            border-bottom: 5px solid rgb(0, 158, 42);
+        }
+
+        div {
+            text-align: center;
+            margin: auto;
+        }
+
+        .navegador {
+            height: 50px;
+            width: auto;
+            background-color:rgb(182, 237, 100);margin: auto;
+
+            padding-top: 10px;
+        }
+
+        .cuerpo {
+            background-color: antiquewhite;
+            padding-bottom: 10px;
+        }
+
+        .imgUs {
+            width: 450px;
+            height: auto;
+        }
+
+        .lista {
+            width: 350px;
+            margin: auto;
+            text-align: justify;
+        }
+
+			#menu-nav {
+				width: 100%;
+				position: fixed;
+				top: 0px;
+				background-color: rgb(217, 66, 159);
+				z-index: 1;
+				height: 40px;
+				display: flex;
+				margin: auto;
+			}
+
+			.col-centro {
+				width: 80%;
+				margin: 0 auto;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.nombre-pagina {
+				width: 80%;
+				font-size: 1.5rem;
+				font-weight: bold;
+				font-style: italic;
+				text-align: center;
+			}
+
+			.nombre-pagina a {
+				font-size: 1em;
+				text-decoration: none;
+				color: rgb(255, 225, 230);
+			}
+
+			.back-legend {
+				font-size: 0.7em;
+				color: rgb(255, 225, 230);
+			}
+    </style>
+</head>
+<body>
+    		<div id="menu-nav">
+			<div class="col-centro">
+				<div class="nombre-pagina">
+					<a href="https://aurorisha.github.io/WebClass1Finals">↩ Regresar</a>
+				</div>
+				<div class="nombre-pagina">
+					<p class="back-legend">⚠︎ Esta franja <b>no</b> se incluye en el ejemplo ⚠︎</p>
+				</div>
+			</div>
+		</div>
+    <nav>
+        <div class="navegador">
+            <a href="#promociones">Promociones</a>
+            <a href="#publicidad">Publicidad </a>
+        </div>
+    </nav>
+    <header>
+        <img src="img/frutahero.jpeg" alt="" width="auto">
+            <h1 style="background-color: rgb(4, 179, 100);color: rgb(255, 225, 0);">Fruteria La Saborsa</h1>
+            <p>Venta de Frutas y Verduras a domicilio</p>
+    </header>
+    <main class="cuerpo">
+    <!-- ul>li*3>b{Lunes}+{ abierto de }+b{07:00}+{ a }+b{18:00} -->
+    <h2 style="color: darkgreen;">Horarios</h2>
+    <div class="lista">
+        <ul>
+            <li><b>Lunes y Martes</b> abierto de <b>07:00</b> a <b>19:00</b></li>
+            <li><b>Miercoles y Jueves</b> abierto de <b>07:00</b> a <b>18:00</b></li>
+            <li><b>Viernes</b> abierto de <b>07:00</b> a <b>13:00</b></li>
+        </ul>
+    </div>
+    <section id="promociones">
+            <hr>
+    <h2>Promociones de la Semana</h2>
+    <div>
+        <table width="450px">
+            <colgroup>
+                <col span="1" style="background-color: darkseagreen;">
+            </colgroup>
+            <thead style="background-color: greenyellow;">
+                <tr>
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            </thead>
+            <tbody style="color: rgb(110, 3, 3);">
+                        <tr>
+                <td><i></i></td>
+                <td><i>Platano</i></td>
+                <td><i>Tomates</i></td>
+                <td><i>Manana</i></td>
+                <td><i>Naranja</i></td>
+                <td><i>Limon</i></td>
+                <tr>
+                    <td>Antes</td>
+                    <td><del>$27.35</del></td>
+                    <td><del>$35.95</del></td>
+                    <td><del>$32.50</del></td>
+                    <td><del>$22.00</del></td>
+                    <td><del>$40.50</del></td>
+                    <tr>
+                        <td><b>Ahora</b></td>
+                        <td><b><i>$19.95</i></b></td>
+                        <td><b><i>$29.95</i></b></td>
+                        <td><b><i>$26.00</i></b></td>
+                        <td><b><i>$14.95</i></b></td>
+                        <td><b><i>$36.00</i></b></td>
+                    </tr>
+                </tr>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <hr>
+    </section>
+    </main>
+    <section id="nosotros">
+        <div class="imgUs">
+            <img src="img/img_conoce.jpg" alt="">
+        </div>
+        <br>
+        <div>
+            <a href="#">Conoce más</a>
+        </div>
+    </section>
+    <section id="publicidad">
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hzALXZWR458?si=AGdnkAX2uGnMD5DV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+</body>
+</html>
