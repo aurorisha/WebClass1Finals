@@ -1,0 +1,177 @@
+* {
+	margin: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	background-color: #ffecf9;
+}
+
+header {
+	background-color: #6544a6;
+	padding: 10px 0px 0px 0px;
+}
+
+a {
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+div {
+	width: 80%;
+	margin: 15px auto;
+	text-align: center;
+}
+
+footer {
+	background-color: #ffa0ff;
+	height: 250px;
+	padding-top: 10px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-weight: 400;
+	font-style: oblique;
+	color: rgb(255, 20, 98);
+	width: 50%;
+	margin: 15px auto;
+	padding-bottom: 10px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+	border-bottom: 2px solid #6544a6;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+/* Aqui empezamos a dar formato a ciertos elementos con clases */
+.menuNav {
+	height: 35px;
+	text-align: center;
+}
+
+.menuNav a {
+	color: rgb(255, 255, 255);
+}
+
+.cabeza {
+	width: 100%;
+	height: 250px;
+	background-image: url(/Tarea5_CSS_Reglas_Selectores/img/texturabg.jpg);
+	background-position: center;
+	text-align: center;
+}
+
+.cabeza img {
+	height: 95%;
+	margin: auto;
+}
+
+/* Aqui empiezo a dar estilos a objetos especificos */
+.boton {
+	background-color: blueviolet;
+	font-weight: 600;
+	font-size: 15px;
+	text-align: center;
+	width: 100px;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+.boton a {
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+/* Aqui empezamos a dar formato a las tarjetas de Promoción */
+.promosCard {
+	width: 250px;
+	height: auto;
+	border: 4px solid rgb(253, 202, 229);
+	border-radius: 25px;
+	box-shadow: 0px 5px 15px rgba(255, 68, 168, 0.233);
+	padding: 15px;
+	margin: 25px auto;
+	background-color: #ffffff;
+	font-weight: 400;
+	font-size: 15px;
+	color: rgb(83, 15, 52);
+}
+
+.promosCard img {
+	width: 100%;
+	padding-bottom: 15px;
+	border-bottom: 3px solid deeppink;
+}
+
+.promosCard p {
+	margin: 10px auto;
+}
+
+.promoTitulo {
+	color: rgb(185, 15, 106);
+	font-weight: 600;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.promoAntes {
+	text-decoration: line-through;
+}
+
+.promoAhora {
+	color: rgb(255, 0, 98);
+	font-weight: 600;
+	font-size: 20px;
+}
+
+/* Aqui empezamos a dar formato a las tarjetas de Productos */
+
+#productos {
+	background-color: #f8d4ff;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.productoCard {
+	width: 25%;
+	height: auto;
+	background-color: #fff5fc71;
+	box-shadow: 0px 2px 10px rgba(111, 40, 133, 0.322);
+	border-radius: 25px;
+	padding-bottom: 10px;
+}
+
+.productoCard p {
+	font-weight: 600;
+	font-style: italic;
+	font-size: 25px;
+	color: white;
+	background-color: rgb(255, 0, 136);
+	border-radius: 25px 25px 0px 0px;
+	padding: 10px;
+}
+
+.productoMarco {
+	width: 100%;
+	background-color: #ffffff6e;
+}
+
+.productoMarco img {
+	width: 80%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
