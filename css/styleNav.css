@@ -36,3 +36,7 @@
 	font-size: 0.7em;
 	color: rgb(255, 225, 230);
 }
+
+body {
+	margin-top: 60px;
+}
