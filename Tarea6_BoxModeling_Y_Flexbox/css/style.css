@@ -70,7 +70,6 @@ h3 {
 	height: auto;
 	background-image: url(../img/texturabg.jpg);
 	background-position: center;
-	text-align: center;
 }
 
 .cabezaLogo {
@@ -79,7 +78,9 @@ h3 {
 }
 
 .cabezaLogo img {
-	margin: auto;
+	width: 80%;
+	margin: 0px auto;
+	max-width: 800px;
 }
 
 /* Aqui empiezo a dar estilos a objetos especificos */
