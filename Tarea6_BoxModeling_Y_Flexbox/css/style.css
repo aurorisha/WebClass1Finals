@@ -67,14 +67,18 @@ h3 {
 
 .cabeza {
 	width: 100%;
-	height: 250px;
+	height: auto;
 	background-image: url(../img/texturabg.jpg);
 	background-position: center;
 	text-align: center;
 }
 
-.cabeza img {
-	height: 95%;
+.cabezaLogo {
+	width: 80%;
+	margin: auto;
+}
+
+.cabezaLogo img {
 	margin: auto;
 }
 
@@ -184,7 +188,7 @@ h3 {
 
 .productoTexto {
 	font-size: 16px;
-	padding: 5px 5px;
+	padding: 5px 10px;
 	font-style: italic;
 	font-weight: 600;
 }
