@@ -102,6 +102,7 @@ h3 {
 /* Aqui empezamos a dar formato a las tarjetas de Promoción */
 
 .contenedorTarjea {
+	width: 80%;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
