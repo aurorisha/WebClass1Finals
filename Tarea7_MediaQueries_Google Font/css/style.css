@@ -397,6 +397,7 @@ h3 {
 
 	.productoCard {
 		width: 75%;
+		margin: 5px;
 	}
 
 	.productoTitulo {
