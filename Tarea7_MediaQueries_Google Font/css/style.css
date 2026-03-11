@@ -100,6 +100,10 @@ h3 {
 }
 
 /* Aqui empezamos a dar formato a las tarjetas de Promoción */
+#promociones {
+	width: 80%;
+	margin: auto;
+}
 
 .contenedorTarjea {
 	width: 80%;
