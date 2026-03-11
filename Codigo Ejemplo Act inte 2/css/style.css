@@ -1,0 +1,418 @@
+* {
+	margin: 0px;
+	font-family: "Ubuntu", sans-serif;
+}
+
+body {
+	background-color: #ffecf9;
+}
+
+header {
+	background-color: #6544a6;
+	padding: 10px 0px 0px 0px;
+}
+
+a {
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+div {
+	width: 80%;
+	margin: 15px auto;
+	text-align: center;
+}
+
+footer {
+	background-color: #ffa0ff;
+	height: 250px;
+	padding-top: 10px;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 800;
+	font-style: oblique;
+	color: rgb(255, 20, 98);
+	width: 50%;
+	margin: 15px auto;
+	padding-bottom: 10px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+	border-bottom: 2px solid #6544a6;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+/* Aqui empezamos a dar formato a ciertos elementos con clases */
+.menuNav {
+	height: 35px;
+	text-align: center;
+}
+
+.menuNav a {
+	color: rgb(255, 255, 255);
+}
+
+.cabeza {
+	width: 100%;
+	height: auto;
+	background-image: url(../img/texturabg.jpg);
+	background-position: center;
+}
+
+.cabezaLogo {
+	width: 80%;
+	margin: auto;
+}
+
+.cabezaLogo img {
+	width: 80%;
+	margin: 2px auto;
+	max-width: 800px;
+}
+
+/* Aqui empiezo a dar estilos a objetos especificos */
+.boton {
+	background-color: blueviolet;
+	font-weight: 600;
+	font-size: 15px;
+	text-align: center;
+	width: 100px;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+.boton a {
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+/* Aqui empezamos a dar formato a las tarjetas de Promoción */
+#promociones {
+	width: 80%;
+	margin: auto;
+}
+
+.contenedorTarjea {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: space-evenly;
+}
+
+.promosCard {
+	width: 250px;
+	height: auto;
+	border: 4px solid rgb(253, 202, 229);
+	border-radius: 25px;
+	box-shadow: 0px 5px 15px rgba(255, 68, 168, 0.233);
+	padding: 15px;
+	margin: 25px auto;
+	background-color: #ffffff;
+	font-weight: 400;
+	font-size: 15px;
+	color: rgb(83, 15, 52);
+	display: block;
+}
+
+.promosCard img {
+	width: 100%;
+	max-height: 200px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid deeppink;
+}
+
+.promosCard p {
+	margin: 10px auto;
+}
+
+.promoTitulo {
+	color: rgb(185, 15, 106);
+	font-weight: 600;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.promoAntes {
+	text-decoration: line-through;
+}
+
+.promoAhora {
+	color: rgb(255, 0, 98);
+	font-weight: 600;
+	font-size: 20px;
+}
+
+/* Aqui empezamos a dar formato a las tarjetas de Productos */
+
+#productos {
+	background-color: #f8d4ff;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.productoCard {
+	width: 250px;
+	height: auto;
+	background-color: #fff5fc71;
+	box-shadow: 0px 2px 10px rgba(111, 40, 133, 0.322);
+	border-radius: 25px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.productoTitulo {
+	font-weight: 600;
+	font-style: italic;
+	font-size: 25px;
+	color: white;
+	background-color: rgb(255, 0, 136);
+	border-radius: 25px 25px 0px 0px;
+	padding: 10px;
+}
+
+.productoMarco img {
+	width: 80%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.productoTexto {
+	font-size: 16px;
+	padding: 5px 10px;
+	font-style: italic;
+	font-weight: 600;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+	div {
+		width: 85%;
+		margin: 10px auto;
+	}
+
+	h1,
+	h2,
+	h3 {
+		width: 70%;
+		margin: 10px auto;
+	}
+
+	.menuNav {
+		height: 25px;
+	}
+
+	.cabezaLogo {
+		width: 85%;
+	}
+
+	.cabezaLogo img {
+		width: 60%;
+		max-width: 700px;
+	}
+
+	.contenedorTarjea {
+		width: 85%;
+		gap: 10px;
+	}
+
+	.promosCard {
+		width: 200px;
+		height: auto;
+		padding: 10px;
+		margin: 20px auto;
+	}
+
+	.promosCard img {
+		width: 200px;
+		max-height: 180px;
+		padding-bottom: 10px;
+	}
+
+	.promoTitulo {
+		font-size: 20px;
+	}
+
+	.promoAhora {
+		color: rgb(255, 0, 98);
+		font-size: 18px;
+	}
+
+	.productoCard {
+		width: 200px;
+	}
+
+	.productoTitulo {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.productoMarco img {
+		width: 90%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 999px) {
+	div {
+		width: 90%;
+	}
+
+	h1,
+	h2,
+	h3 {
+		width: 90%;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	.menuNav {
+		height: 20px;
+	}
+
+	.cabezaLogo {
+		width: 90%;
+	}
+
+	.cabezaLogo img {
+		width: 75%;
+		max-width: 700px;
+	}
+
+	.contenedorTarjea {
+		width: 90%;
+		gap: 0px;
+	}
+
+	.promosCard {
+		width: 180px;
+		height: auto;
+		padding: 5px;
+		margin: 10px auto;
+	}
+
+	.promosCard img {
+		width: 150px;
+		max-height: 130px;
+		padding-bottom: 10px;
+	}
+
+	.promoTitulo {
+		font-size: 18px;
+	}
+
+	.promoAhora {
+		font-size: 16px;
+	}
+
+	.productoCard {
+		width: 180px;
+	}
+
+	.productoTitulo {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.productoMarco img {
+		width: 90%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	div {
+		width: 95%;
+	}
+
+	h1,
+	h2,
+	h3 {
+		width: 95%;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.menuNav {
+		height: 20px;
+	}
+
+	.cabezaLogo {
+		width: 95%;
+	}
+
+	.cabezaLogo img {
+		width: 90%;
+		max-width: 350px;
+	}
+
+	.contenedorTarjea {
+		width: 90%;
+	}
+
+	.promosCard {
+		width: 70%;
+		padding: 10px;
+		margin: 10px auto;
+	}
+
+	.promosCard img {
+		width: 100%;
+		max-height: 250px;
+	}
+
+	.promoTitulo {
+		font-size: 25px;
+	}
+
+	.promoAhora {
+		font-size: 20px;
+	}
+
+	.productoCard {
+		width: 75%;
+		margin: 5px;
+	}
+
+	.productoTitulo {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.productoMarco img {
+		width: 70%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
